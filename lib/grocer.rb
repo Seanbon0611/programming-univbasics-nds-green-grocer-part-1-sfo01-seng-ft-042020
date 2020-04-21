@@ -3,9 +3,7 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   collection.each do |pair|
-    if name == collection[:item]
-      collection[:item]
-    end
+    binding.pry
   end
 end
 
