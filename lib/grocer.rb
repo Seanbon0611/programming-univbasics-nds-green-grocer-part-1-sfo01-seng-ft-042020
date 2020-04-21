@@ -3,7 +3,7 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   result = {}
-  collection.each do |pair|
+  collection.each_with_index do |(key,value), index|
     binding.pry
   end
 end
