@@ -5,9 +5,10 @@ def find_item_by_name_in_collection(name, collection)
   result = {}
   collection.each_with_index do |pair, index|
     if name == pair[:item]
-      return 
+      return pair
     end 
   end
+  nil
 end
 
 def consolidate_cart(cart)
