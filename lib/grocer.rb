@@ -14,7 +14,6 @@ def consolidate_cart(cart)
   result = []
   item = find_item_by_name_in_collection(key, value)
   cart.each do |pair|
-    
   binding.pry
   end 
 end
