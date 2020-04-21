@@ -3,8 +3,10 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   result = {}
-  collection.each_with_index do |(key,value), index|
-    binding.pry
+  collection.each_with_index do |pair, index|
+    if name == pair[:item]
+      result = 
+    end 
   end
 end
 
