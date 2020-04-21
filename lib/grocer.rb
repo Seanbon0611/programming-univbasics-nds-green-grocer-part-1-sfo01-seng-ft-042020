@@ -1,3 +1,4 @@
+require 'pry'
 grocery_shelf = [
   { :item => "CANNED BEANS", 
     :price => 3.00, 
