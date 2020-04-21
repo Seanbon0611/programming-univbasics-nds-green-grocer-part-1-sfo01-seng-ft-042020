@@ -2,8 +2,11 @@ require 'pry'
 
 
 def find_item_by_name_in_collection(name, collection)
+  result = nil
   collection.each do |pair|
-  binding.pry
+    if name == collection[:item]
+      result = collection
+    end
   end
 end
 
