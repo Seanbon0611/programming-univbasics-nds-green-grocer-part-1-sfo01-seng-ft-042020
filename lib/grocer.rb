@@ -15,6 +15,7 @@ def consolidate_cart(cart)
   cart.each do |pair|
   item = pair[:item]
   item_name = find_item_by_name_in_collection(item, result)
+  binding.pry
   end 
 end
 
