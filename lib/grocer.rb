@@ -20,6 +20,6 @@ def consolidate_cart(cart)
 end
 
 def consolidate_cart(cart)
-  cart.map {}
+  cart.map {|key, value|}
 end
   
