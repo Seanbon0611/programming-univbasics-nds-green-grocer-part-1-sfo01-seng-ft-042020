@@ -12,6 +12,7 @@ end
 
 def consolidate_cart(cart)
   result = []
+  
   binding.pry
 end
 
