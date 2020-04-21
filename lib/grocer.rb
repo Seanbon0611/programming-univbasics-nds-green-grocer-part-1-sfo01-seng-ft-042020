@@ -7,16 +7,6 @@ def find_item_by_name_in_collection(name, collection)
       collection[:item]
     end
   end
-  
-  collection_index = 0
-
-  while collection_index < collection.size do
-    current_item = collection[collection_index]
-    if ( current_item[:item] == name )
-      return current_item
-    end
-    collection_index += 1
-  end
   nil
 end
 
